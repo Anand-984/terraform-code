@@ -74,7 +74,7 @@ variable "instance_type" {
 
 variable "tenancy" {
    default     = null
-  description = "The tenancy of the instance (if the instance is running in a VPC). Available values: default, dedicated, host."
+  description = "The tenancy of the instance .Available values: default, dedicated, host."
   type        = string
  
 }
